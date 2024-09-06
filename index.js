@@ -1,4 +1,3 @@
-require("dotenv").config();
 const fastify = require("fastify")({ logger: true });
 const { knex } = require("./database");
 
